@@ -1,0 +1,2524 @@
+{
+  "schema_version": "1.0",
+  "description": "MovieMatch user preference question bank. Option tags are machine-readable signals for filtering and recommendation scoring.",
+  "question_count": 58,
+  "categories": [
+    "genre_preferences",
+    "storytelling",
+    "mood_and_emotion",
+    "cinematic_style",
+    "characters_and_relationships",
+    "setting_and_time_period",
+    "runtime_and_viewing",
+    "content_boundaries",
+    "discovery_and_experimentation",
+    "movie_anchors"
+  ],
+  "questions": [
+    {
+      "id": "Q001",
+      "category": "genre_preferences",
+      "question": "Which genres do you enjoy?",
+      "type": "multi_select",
+      "options": [
+        {
+          "label": "Action",
+          "tags": [
+            "action"
+          ]
+        },
+        {
+          "label": "Adventure",
+          "tags": [
+            "adventure"
+          ]
+        },
+        {
+          "label": "Comedy",
+          "tags": [
+            "comedy"
+          ]
+        },
+        {
+          "label": "Romantic comedy",
+          "tags": [
+            "romance",
+            "comedy"
+          ]
+        },
+        {
+          "label": "Romance",
+          "tags": [
+            "romance"
+          ]
+        },
+        {
+          "label": "Drama",
+          "tags": [
+            "drama"
+          ]
+        },
+        {
+          "label": "Psychological thriller",
+          "tags": [
+            "thriller",
+            "psychological"
+          ]
+        },
+        {
+          "label": "Crime thriller",
+          "tags": [
+            "thriller",
+            "crime"
+          ]
+        },
+        {
+          "label": "Mystery / whodunit",
+          "tags": [
+            "mystery",
+            "detective"
+          ]
+        },
+        {
+          "label": "Horror",
+          "tags": [
+            "horror"
+          ]
+        },
+        {
+          "label": "Supernatural horror",
+          "tags": [
+            "horror",
+            "supernatural"
+          ]
+        },
+        {
+          "label": "Science fiction",
+          "tags": [
+            "science_fiction"
+          ]
+        },
+        {
+          "label": "Fantasy",
+          "tags": [
+            "fantasy"
+          ]
+        },
+        {
+          "label": "Historical fiction",
+          "tags": [
+            "historical"
+          ]
+        },
+        {
+          "label": "War",
+          "tags": [
+            "war"
+          ]
+        },
+        {
+          "label": "Documentary",
+          "tags": [
+            "documentary"
+          ]
+        },
+        {
+          "label": "Biography / true story",
+          "tags": [
+            "biographical",
+            "based_on_true_story"
+          ]
+        },
+        {
+          "label": "Musical",
+          "tags": [
+            "musical"
+          ]
+        },
+        {
+          "label": "Animation",
+          "tags": [
+            "animation"
+          ]
+        },
+        {
+          "label": "Western",
+          "tags": [
+            "western"
+          ]
+        },
+        {
+          "label": "Sports",
+          "tags": [
+            "sports"
+          ]
+        },
+        {
+          "label": "Coming-of-age",
+          "tags": [
+            "coming_of_age"
+          ]
+        },
+        {
+          "label": "Political thriller",
+          "tags": [
+            "political",
+            "thriller"
+          ]
+        },
+        {
+          "label": "Satire",
+          "tags": [
+            "satire"
+          ]
+        },
+        {
+          "label": "Dark comedy",
+          "tags": [
+            "dark_comedy"
+          ]
+        },
+        {
+          "label": "Disaster",
+          "tags": [
+            "disaster"
+          ]
+        },
+        {
+          "label": "Survival",
+          "tags": [
+            "survival"
+          ]
+        },
+        {
+          "label": "Heist",
+          "tags": [
+            "heist"
+          ]
+        },
+        {
+          "label": "Legal drama",
+          "tags": [
+            "legal",
+            "drama"
+          ]
+        },
+        {
+          "label": "Espionage / spy",
+          "tags": [
+            "spy",
+            "espionage"
+          ]
+        },
+        {
+          "label": "Family",
+          "tags": [
+            "family"
+          ]
+        },
+        {
+          "label": "Experimental / arthouse",
+          "tags": [
+            "experimental",
+            "arthouse"
+          ]
+        }
+      ],
+      "required": true,
+      "preference_tags": [
+        "genre"
+      ]
+    },
+    {
+      "id": "Q002",
+      "category": "genre_preferences",
+      "question": "Which genres do you generally avoid?",
+      "type": "multi_select",
+      "options": [
+        {
+          "label": "Action",
+          "tags": [
+            "avoid_action"
+          ]
+        },
+        {
+          "label": "Comedy",
+          "tags": [
+            "avoid_comedy"
+          ]
+        },
+        {
+          "label": "Romance",
+          "tags": [
+            "avoid_romance"
+          ]
+        },
+        {
+          "label": "Drama",
+          "tags": [
+            "avoid_drama"
+          ]
+        },
+        {
+          "label": "Thriller",
+          "tags": [
+            "avoid_thriller"
+          ]
+        },
+        {
+          "label": "Mystery",
+          "tags": [
+            "avoid_mystery"
+          ]
+        },
+        {
+          "label": "Horror",
+          "tags": [
+            "avoid_horror"
+          ]
+        },
+        {
+          "label": "Science fiction",
+          "tags": [
+            "avoid_scifi"
+          ]
+        },
+        {
+          "label": "Fantasy",
+          "tags": [
+            "avoid_fantasy"
+          ]
+        },
+        {
+          "label": "Documentary",
+          "tags": [
+            "avoid_documentary"
+          ]
+        },
+        {
+          "label": "Musical",
+          "tags": [
+            "avoid_musical"
+          ]
+        },
+        {
+          "label": "Animation",
+          "tags": [
+            "avoid_animation"
+          ]
+        },
+        {
+          "label": "War",
+          "tags": [
+            "avoid_war"
+          ]
+        },
+        {
+          "label": "No genres to avoid",
+          "tags": [
+            "no_genre_avoidance"
+          ]
+        }
+      ],
+      "required": false,
+      "preference_tags": [
+        "genre_avoidance"
+      ]
+    },
+    {
+      "id": "Q003",
+      "category": "genre_preferences",
+      "question": "Which genres would you be willing to explore more?",
+      "type": "multi_select",
+      "options": [
+        {
+          "label": "International drama",
+          "tags": [
+            "international",
+            "drama"
+          ]
+        },
+        {
+          "label": "Classic films",
+          "tags": [
+            "classic_cinema"
+          ]
+        },
+        {
+          "label": "Arthouse / experimental",
+          "tags": [
+            "arthouse",
+            "experimental"
+          ]
+        },
+        {
+          "label": "Documentaries",
+          "tags": [
+            "documentary"
+          ]
+        },
+        {
+          "label": "Foreign-language films",
+          "tags": [
+            "foreign_language"
+          ]
+        },
+        {
+          "label": "Horror",
+          "tags": [
+            "horror"
+          ]
+        },
+        {
+          "label": "Science fiction",
+          "tags": [
+            "science_fiction"
+          ]
+        },
+        {
+          "label": "Historical films",
+          "tags": [
+            "historical"
+          ]
+        },
+        {
+          "label": "Independent films",
+          "tags": [
+            "independent"
+          ]
+        },
+        {
+          "label": "Animation",
+          "tags": [
+            "animation"
+          ]
+        }
+      ],
+      "required": false,
+      "preference_tags": [
+        "discovery"
+      ]
+    },
+    {
+      "id": "Q004",
+      "category": "storytelling",
+      "question": "What kind of storytelling do you usually prefer?",
+      "type": "multi_select",
+      "options": [
+        {
+          "label": "Character-driven",
+          "tags": [
+            "character_driven"
+          ]
+        },
+        {
+          "label": "Plot-driven",
+          "tags": [
+            "plot_driven"
+          ]
+        },
+        {
+          "label": "Slow-building",
+          "tags": [
+            "slow_burn"
+          ]
+        },
+        {
+          "label": "Fast-paced",
+          "tags": [
+            "fast_paced"
+          ]
+        },
+        {
+          "label": "Unpredictable",
+          "tags": [
+            "unpredictable"
+          ]
+        },
+        {
+          "label": "Nonlinear",
+          "tags": [
+            "nonlinear"
+          ]
+        },
+        {
+          "label": "Episodic or loosely connected",
+          "tags": [
+            "episodic"
+          ]
+        },
+        {
+          "label": "Atmospheric",
+          "tags": [
+            "atmospheric"
+          ]
+        },
+        {
+          "label": "Minimalist",
+          "tags": [
+            "minimalist"
+          ]
+        },
+        {
+          "label": "Complex and layered",
+          "tags": [
+            "complex_plot"
+          ]
+        }
+      ],
+      "required": false,
+      "preference_tags": [
+        "storytelling"
+      ]
+    },
+    {
+      "id": "Q005",
+      "category": "storytelling",
+      "question": "How complex do you like a movie's plot to be?",
+      "type": "single_select",
+      "options": [
+        {
+          "label": "Simple and easy to follow",
+          "tags": [
+            "simple_plot"
+          ]
+        },
+        {
+          "label": "Moderately complex",
+          "tags": [
+            "moderate_plot_complexity"
+          ]
+        },
+        {
+          "label": "Layered with several details",
+          "tags": [
+            "complex_plot"
+          ]
+        },
+        {
+          "label": "Very complex and demanding",
+          "tags": [
+            "very_complex_plot"
+          ]
+        }
+      ],
+      "required": false,
+      "preference_tags": [
+        "plot_complexity"
+      ]
+    },
+    {
+      "id": "Q006",
+      "category": "storytelling",
+      "question": "How do you feel about plot twists?",
+      "type": "single_select",
+      "options": [
+        {
+          "label": "Love them",
+          "tags": [
+            "plot_twists"
+          ]
+        },
+        {
+          "label": "Enjoy them occasionally",
+          "tags": [
+            "some_plot_twists"
+          ]
+        },
+        {
+          "label": "Prefer straightforward stories",
+          "tags": [
+            "few_plot_twists"
+          ]
+        },
+        {
+          "label": "Strongly dislike them",
+          "tags": [
+            "avoid_plot_twists"
+          ]
+        }
+      ],
+      "required": false,
+      "preference_tags": [
+        "plot_twists"
+      ]
+    },
+    {
+      "id": "Q007",
+      "category": "storytelling",
+      "question": "Which endings do you tend to enjoy?",
+      "type": "multi_select",
+      "options": [
+        {
+          "label": "Happy",
+          "tags": [
+            "happy_ending"
+          ]
+        },
+        {
+          "label": "Sad or tragic",
+          "tags": [
+            "tragic_ending"
+          ]
+        },
+        {
+          "label": "Bittersweet",
+          "tags": [
+            "bittersweet_ending"
+          ]
+        },
+        {
+          "label": "Ambiguous or open-ended",
+          "tags": [
+            "ambiguous_ending"
+          ]
+        },
+        {
+          "label": "Shocking",
+          "tags": [
+            "shocking_ending"
+          ]
+        },
+        {
+          "label": "Realistic",
+          "tags": [
+            "realistic_ending"
+          ]
+        },
+        {
+          "label": "Thought-provoking",
+          "tags": [
+            "thought_provoking_ending"
+          ]
+        }
+      ],
+      "required": false,
+      "preference_tags": [
+        "ending"
+      ]
+    },
+    {
+      "id": "Q008",
+      "category": "storytelling",
+      "question": "Do you enjoy nonlinear storytelling, such as flashbacks or stories told out of order?",
+      "type": "single_select",
+      "options": [
+        {
+          "label": "Yes, a lot",
+          "tags": [
+            "nonlinear"
+          ]
+        },
+        {
+          "label": "Sometimes",
+          "tags": [
+            "some_nonlinear"
+          ]
+        },
+        {
+          "label": "Not particularly",
+          "tags": [
+            "linear_preference"
+          ]
+        },
+        {
+          "label": "No",
+          "tags": [
+            "avoid_nonlinear"
+          ]
+        }
+      ],
+      "required": false,
+      "preference_tags": [
+        "nonlinear"
+      ]
+    },
+    {
+      "id": "Q009",
+      "category": "storytelling",
+      "question": "How do you feel about unreliable narrators?",
+      "type": "single_select",
+      "options": [
+        {
+          "label": "Love them",
+          "tags": [
+            "unreliable_narrator"
+          ]
+        },
+        {
+          "label": "Enjoy them sometimes",
+          "tags": [
+            "some_unreliable_narrator"
+          ]
+        },
+        {
+          "label": "No preference",
+          "tags": [
+            "neutral_unreliable_narrator"
+          ]
+        },
+        {
+          "label": "Prefer reliable narrators",
+          "tags": [
+            "avoid_unreliable_narrator"
+          ]
+        }
+      ],
+      "required": false,
+      "preference_tags": [
+        "narrative_device"
+      ]
+    },
+    {
+      "id": "Q010",
+      "category": "storytelling",
+      "question": "Do you enjoy movies that leave you interpreting what really happened?",
+      "type": "single_select",
+      "options": [
+        {
+          "label": "Yes, I love that",
+          "tags": [
+            "ambiguous_reality",
+            "interpretive"
+          ]
+        },
+        {
+          "label": "Sometimes",
+          "tags": [
+            "some_ambiguity"
+          ]
+        },
+        {
+          "label": "Prefer clear explanations",
+          "tags": [
+            "clear_resolution"
+          ]
+        },
+        {
+          "label": "No",
+          "tags": [
+            "avoid_ambiguity"
+          ]
+        }
+      ],
+      "required": false,
+      "preference_tags": [
+        "ambiguity"
+      ]
+    },
+    {
+      "id": "Q011",
+      "category": "storytelling",
+      "question": "Which types of central conflict interest you?",
+      "type": "multi_select",
+      "options": [
+        {
+          "label": "Person vs. person",
+          "tags": [
+            "interpersonal_conflict"
+          ]
+        },
+        {
+          "label": "Person vs. self",
+          "tags": [
+            "internal_conflict"
+          ]
+        },
+        {
+          "label": "Person vs. society",
+          "tags": [
+            "social_conflict"
+          ]
+        },
+        {
+          "label": "Person vs. nature",
+          "tags": [
+            "survival_conflict"
+          ]
+        },
+        {
+          "label": "Person vs. technology",
+          "tags": [
+            "technology_conflict"
+          ]
+        },
+        {
+          "label": "Person vs. fate or the supernatural",
+          "tags": [
+            "supernatural_conflict"
+          ]
+        }
+      ],
+      "required": false,
+      "preference_tags": [
+        "conflict"
+      ]
+    },
+    {
+      "id": "Q012",
+      "category": "mood_and_emotion",
+      "question": "What would you like to feel during or after the movie?",
+      "type": "multi_select",
+      "options": [
+        {
+          "label": "Happy",
+          "tags": [
+            "uplifting"
+          ]
+        },
+        {
+          "label": "Excited",
+          "tags": [
+            "exciting"
+          ]
+        },
+        {
+          "label": "Relaxed",
+          "tags": [
+            "comforting"
+          ]
+        },
+        {
+          "label": "Suspenseful",
+          "tags": [
+            "suspenseful"
+          ]
+        },
+        {
+          "label": "Inspired",
+          "tags": [
+            "inspirational"
+          ]
+        },
+        {
+          "label": "Thoughtful",
+          "tags": [
+            "thought_provoking"
+          ]
+        },
+        {
+          "label": "Emotional",
+          "tags": [
+            "emotional"
+          ]
+        },
+        {
+          "label": "Unsettled",
+          "tags": [
+            "unsettling"
+          ]
+        },
+        {
+          "label": "Surprised",
+          "tags": [
+            "surprising"
+          ]
+        },
+        {
+          "label": "Nostalgic",
+          "tags": [
+            "nostalgic"
+          ]
+        },
+        {
+          "label": "Amused",
+          "tags": [
+            "funny"
+          ]
+        },
+        {
+          "label": "Moved or hopeful",
+          "tags": [
+            "hopeful"
+          ]
+        }
+      ],
+      "required": false,
+      "preference_tags": [
+        "mood"
+      ]
+    },
+    {
+      "id": "Q013",
+      "category": "mood_and_emotion",
+      "question": "How emotionally intense should the movie be?",
+      "type": "single_select",
+      "options": [
+        {
+          "label": "Lighthearted",
+          "tags": [
+            "low_emotional_intensity"
+          ]
+        },
+        {
+          "label": "A little emotional",
+          "tags": [
+            "moderate_emotional_intensity"
+          ]
+        },
+        {
+          "label": "Very emotional",
+          "tags": [
+            "high_emotional_intensity"
+          ]
+        },
+        {
+          "label": "Extremely intense or devastating",
+          "tags": [
+            "very_high_emotional_intensity"
+          ]
+        }
+      ],
+      "required": false,
+      "preference_tags": [
+        "emotional_intensity"
+      ]
+    },
+    {
+      "id": "Q014",
+      "category": "mood_and_emotion",
+      "question": "How do you feel about movies that make you cry?",
+      "type": "single_select",
+      "options": [
+        {
+          "label": "I love them",
+          "tags": [
+            "tearjerker"
+          ]
+        },
+        {
+          "label": "Sometimes",
+          "tags": [
+            "some_emotional_drama"
+          ]
+        },
+        {
+          "label": "I prefer not to",
+          "tags": [
+            "avoid_tearjerker"
+          ]
+        },
+        {
+          "label": "It depends on the story",
+          "tags": [
+            "conditional_tearjerker"
+          ]
+        }
+      ],
+      "required": false,
+      "preference_tags": [
+        "emotional_content"
+      ]
+    },
+    {
+      "id": "Q015",
+      "category": "mood_and_emotion",
+      "question": "Which overall atmosphere do you prefer?",
+      "type": "multi_select",
+      "options": [
+        {
+          "label": "Dark",
+          "tags": [
+            "dark_atmosphere"
+          ]
+        },
+        {
+          "label": "Cozy",
+          "tags": [
+            "cozy_atmosphere"
+          ]
+        },
+        {
+          "label": "Mysterious",
+          "tags": [
+            "mysterious_atmosphere"
+          ]
+        },
+        {
+          "label": "Dreamlike or surreal",
+          "tags": [
+            "surreal_atmosphere"
+          ]
+        },
+        {
+          "label": "Tense",
+          "tags": [
+            "tense_atmosphere"
+          ]
+        },
+        {
+          "label": "Whimsical",
+          "tags": [
+            "whimsical_atmosphere"
+          ]
+        },
+        {
+          "label": "Gritty and realistic",
+          "tags": [
+            "gritty_atmosphere"
+          ]
+        },
+        {
+          "label": "Nostalgic",
+          "tags": [
+            "nostalgic_atmosphere"
+          ]
+        },
+        {
+          "label": "Romantic",
+          "tags": [
+            "romantic_atmosphere"
+          ]
+        }
+      ],
+      "required": false,
+      "preference_tags": [
+        "atmosphere"
+      ]
+    },
+    {
+      "id": "Q016",
+      "category": "mood_and_emotion",
+      "question": "Do you prefer escapism or realism?",
+      "type": "single_select",
+      "options": [
+        {
+          "label": "Mostly escapism",
+          "tags": [
+            "escapist"
+          ]
+        },
+        {
+          "label": "Mostly realism",
+          "tags": [
+            "realistic"
+          ]
+        },
+        {
+          "label": "A mix of both",
+          "tags": [
+            "balanced_realism_escapism"
+          ]
+        },
+        {
+          "label": "No preference",
+          "tags": [
+            "any_realism_level"
+          ]
+        }
+      ],
+      "required": false,
+      "preference_tags": [
+        "realism"
+      ]
+    },
+    {
+      "id": "Q017",
+      "category": "mood_and_emotion",
+      "question": "How much humor would you like in a movie?",
+      "type": "single_select",
+      "options": [
+        {
+          "label": "None or very little",
+          "tags": [
+            "low_humor"
+          ]
+        },
+        {
+          "label": "Some subtle humor",
+          "tags": [
+            "subtle_humor"
+          ]
+        },
+        {
+          "label": "A moderate amount",
+          "tags": [
+            "moderate_humor"
+          ]
+        },
+        {
+          "label": "A lot of humor",
+          "tags": [
+            "high_humor"
+          ]
+        }
+      ],
+      "required": false,
+      "preference_tags": [
+        "humor"
+      ]
+    },
+    {
+      "id": "Q018",
+      "category": "cinematic_style",
+      "question": "How important is cinematography and visual style to your enjoyment?",
+      "type": "single_select",
+      "options": [
+        {
+          "label": "Very important",
+          "tags": [
+            "visual_style_high"
+          ]
+        },
+        {
+          "label": "Somewhat important",
+          "tags": [
+            "visual_style_medium"
+          ]
+        },
+        {
+          "label": "Not very important",
+          "tags": [
+            "visual_style_low"
+          ]
+        },
+        {
+          "label": "I rarely notice it",
+          "tags": [
+            "visual_style_minimal"
+          ]
+        }
+      ],
+      "required": false,
+      "preference_tags": [
+        "visual_style"
+      ]
+    },
+    {
+      "id": "Q019",
+      "category": "cinematic_style",
+      "question": "Which visual styles appeal to you?",
+      "type": "multi_select",
+      "options": [
+        {
+          "label": "Vibrant and colorful",
+          "tags": [
+            "vibrant_visuals"
+          ]
+        },
+        {
+          "label": "Muted or desaturated",
+          "tags": [
+            "muted_visuals"
+          ]
+        },
+        {
+          "label": "Dark and shadowy",
+          "tags": [
+            "low_key_lighting"
+          ]
+        },
+        {
+          "label": "Naturalistic",
+          "tags": [
+            "naturalistic_visuals"
+          ]
+        },
+        {
+          "label": "Stylized or highly composed",
+          "tags": [
+            "stylized_visuals"
+          ]
+        },
+        {
+          "label": "Dreamlike or surreal",
+          "tags": [
+            "surreal_visuals"
+          ]
+        },
+        {
+          "label": "Vintage or retro",
+          "tags": [
+            "retro_visuals"
+          ]
+        },
+        {
+          "label": "Black and white",
+          "tags": [
+            "black_and_white"
+          ]
+        }
+      ],
+      "required": false,
+      "preference_tags": [
+        "visual_style"
+      ]
+    },
+    {
+      "id": "Q020",
+      "category": "cinematic_style",
+      "question": "How important is the soundtrack or musical score?",
+      "type": "single_select",
+      "options": [
+        {
+          "label": "Very important",
+          "tags": [
+            "soundtrack_high"
+          ]
+        },
+        {
+          "label": "Somewhat important",
+          "tags": [
+            "soundtrack_medium"
+          ]
+        },
+        {
+          "label": "Not important",
+          "tags": [
+            "soundtrack_low"
+          ]
+        },
+        {
+          "label": "I prefer minimal music",
+          "tags": [
+            "minimal_score"
+          ]
+        }
+      ],
+      "required": false,
+      "preference_tags": [
+        "soundtrack"
+      ]
+    },
+    {
+      "id": "Q021",
+      "category": "cinematic_style",
+      "question": "Do you enjoy movies with minimal dialogue?",
+      "type": "single_select",
+      "options": [
+        {
+          "label": "Yes, very much",
+          "tags": [
+            "minimal_dialogue"
+          ]
+        },
+        {
+          "label": "Sometimes",
+          "tags": [
+            "some_minimal_dialogue"
+          ]
+        },
+        {
+          "label": "I prefer dialogue-heavy movies",
+          "tags": [
+            "dialogue_heavy"
+          ]
+        },
+        {
+          "label": "No preference",
+          "tags": [
+            "any_dialogue_level"
+          ]
+        }
+      ],
+      "required": false,
+      "preference_tags": [
+        "dialogue"
+      ]
+    },
+    {
+      "id": "Q022",
+      "category": "cinematic_style",
+      "question": "How do you feel about experimental filmmaking and unconventional visuals?",
+      "type": "single_select",
+      "options": [
+        {
+          "label": "Love it",
+          "tags": [
+            "experimental_film"
+          ]
+        },
+        {
+          "label": "Open to it occasionally",
+          "tags": [
+            "some_experimental_film"
+          ]
+        },
+        {
+          "label": "Prefer conventional filmmaking",
+          "tags": [
+            "conventional_film"
+          ]
+        },
+        {
+          "label": "Avoid it",
+          "tags": [
+            "avoid_experimental_film"
+          ]
+        }
+      ],
+      "required": false,
+      "preference_tags": [
+        "experimental_style"
+      ]
+    },
+    {
+      "id": "Q023",
+      "category": "cinematic_style",
+      "question": "Which filmmaking qualities interest you most?",
+      "type": "multi_select",
+      "options": [
+        {
+          "label": "Long uninterrupted shots",
+          "tags": [
+            "long_takes"
+          ]
+        },
+        {
+          "label": "Distinctive editing",
+          "tags": [
+            "distinctive_editing"
+          ]
+        },
+        {
+          "label": "Practical effects",
+          "tags": [
+            "practical_effects"
+          ]
+        },
+        {
+          "label": "Impressive visual effects",
+          "tags": [
+            "visual_effects"
+          ]
+        },
+        {
+          "label": "Detailed production design",
+          "tags": [
+            "production_design"
+          ]
+        },
+        {
+          "label": "Natural performances",
+          "tags": [
+            "naturalistic_acting"
+          ]
+        },
+        {
+          "label": "Stylized performances",
+          "tags": [
+            "stylized_acting"
+          ]
+        }
+      ],
+      "required": false,
+      "preference_tags": [
+        "filmmaking"
+      ]
+    },
+    {
+      "id": "Q024",
+      "category": "characters_and_relationships",
+      "question": "Which types of characters interest you most?",
+      "type": "multi_select",
+      "options": [
+        {
+          "label": "Antiheroes",
+          "tags": [
+            "antihero"
+          ]
+        },
+        {
+          "label": "Villains",
+          "tags": [
+            "villain_protagonist"
+          ]
+        },
+        {
+          "label": "Underdogs",
+          "tags": [
+            "underdog"
+          ]
+        },
+        {
+          "label": "Outsiders",
+          "tags": [
+            "outsider"
+          ]
+        },
+        {
+          "label": "Geniuses",
+          "tags": [
+            "genius_character"
+          ]
+        },
+        {
+          "label": "Ordinary people in unusual situations",
+          "tags": [
+            "ordinary_protagonist"
+          ]
+        },
+        {
+          "label": "Morally gray characters",
+          "tags": [
+            "morally_ambiguous"
+          ]
+        },
+        {
+          "label": "Strong ensemble casts",
+          "tags": [
+            "ensemble_cast"
+          ]
+        },
+        {
+          "label": "Complex protagonists",
+          "tags": [
+            "complex_protagonist"
+          ]
+        }
+      ],
+      "required": false,
+      "preference_tags": [
+        "character_type"
+      ]
+    },
+    {
+      "id": "Q025",
+      "category": "characters_and_relationships",
+      "question": "Which relationships do you most enjoy watching?",
+      "type": "multi_select",
+      "options": [
+        {
+          "label": "Romantic relationships",
+          "tags": [
+            "romantic_relationship"
+          ]
+        },
+        {
+          "label": "Friendships",
+          "tags": [
+            "friendship"
+          ]
+        },
+        {
+          "label": "Family relationships",
+          "tags": [
+            "family_relationship"
+          ]
+        },
+        {
+          "label": "Rivalries",
+          "tags": [
+            "rivalry"
+          ]
+        },
+        {
+          "label": "Mentor and student",
+          "tags": [
+            "mentor_relationship"
+          ]
+        },
+        {
+          "label": "Partners or colleagues",
+          "tags": [
+            "professional_relationship"
+          ]
+        },
+        {
+          "label": "Complicated or dysfunctional relationships",
+          "tags": [
+            "dysfunctional_relationship"
+          ]
+        }
+      ],
+      "required": false,
+      "preference_tags": [
+        "relationships"
+      ]
+    },
+    {
+      "id": "Q026",
+      "category": "characters_and_relationships",
+      "question": "Do you prefer a single central protagonist or an ensemble cast?",
+      "type": "single_select",
+      "options": [
+        {
+          "label": "One central protagonist",
+          "tags": [
+            "single_protagonist"
+          ]
+        },
+        {
+          "label": "Ensemble cast",
+          "tags": [
+            "ensemble_cast"
+          ]
+        },
+        {
+          "label": "A small group of main characters",
+          "tags": [
+            "small_group_cast"
+          ]
+        },
+        {
+          "label": "No preference",
+          "tags": [
+            "any_cast_size"
+          ]
+        }
+      ],
+      "required": false,
+      "preference_tags": [
+        "cast_structure"
+      ]
+    },
+    {
+      "id": "Q027",
+      "category": "characters_and_relationships",
+      "question": "How much character development do you prefer?",
+      "type": "single_select",
+      "options": [
+        {
+          "label": "Major character transformation",
+          "tags": [
+            "major_character_arc"
+          ]
+        },
+        {
+          "label": "Subtle character development",
+          "tags": [
+            "subtle_character_arc"
+          ]
+        },
+        {
+          "label": "Characters who stay mostly the same",
+          "tags": [
+            "static_character"
+          ]
+        },
+        {
+          "label": "No preference",
+          "tags": [
+            "any_character_arc"
+          ]
+        }
+      ],
+      "required": false,
+      "preference_tags": [
+        "character_development"
+      ]
+    },
+    {
+      "id": "Q028",
+      "category": "characters_and_relationships",
+      "question": "Do you enjoy stories about ambition, status, or power?",
+      "type": "single_select",
+      "options": [
+        {
+          "label": "Yes, very much",
+          "tags": [
+            "ambition_power"
+          ]
+        },
+        {
+          "label": "Sometimes",
+          "tags": [
+            "some_ambition_power"
+          ]
+        },
+        {
+          "label": "Not particularly",
+          "tags": [
+            "low_ambition_power"
+          ]
+        },
+        {
+          "label": "No",
+          "tags": [
+            "avoid_ambition_power"
+          ]
+        }
+      ],
+      "required": false,
+      "preference_tags": [
+        "themes"
+      ]
+    },
+    {
+      "id": "Q029",
+      "category": "setting_and_time_period",
+      "question": "Which time periods interest you?",
+      "type": "multi_select",
+      "options": [
+        {
+          "label": "Pre-1900",
+          "tags": [
+            "period_pre_1900"
+          ]
+        },
+        {
+          "label": "1900–1949",
+          "tags": [
+            "period_1900_1949"
+          ]
+        },
+        {
+          "label": "1950–1969",
+          "tags": [
+            "period_1950_1969"
+          ]
+        },
+        {
+          "label": "1970–1989",
+          "tags": [
+            "period_1970_1989"
+          ]
+        },
+        {
+          "label": "1990–2009",
+          "tags": [
+            "period_1990_2009"
+          ]
+        },
+        {
+          "label": "2010–present",
+          "tags": [
+            "period_modern"
+          ]
+        },
+        {
+          "label": "Near future",
+          "tags": [
+            "near_future"
+          ]
+        },
+        {
+          "label": "Distant future",
+          "tags": [
+            "far_future"
+          ]
+        },
+        {
+          "label": "Alternate timeline",
+          "tags": [
+            "alternate_history"
+          ]
+        }
+      ],
+      "required": false,
+      "preference_tags": [
+        "time_period"
+      ]
+    },
+    {
+      "id": "Q030",
+      "category": "setting_and_time_period",
+      "question": "Which settings would you like to see more often?",
+      "type": "multi_select",
+      "options": [
+        {
+          "label": "Big cities",
+          "tags": [
+            "urban_setting"
+          ]
+        },
+        {
+          "label": "Small towns",
+          "tags": [
+            "small_town_setting"
+          ]
+        },
+        {
+          "label": "Rural countryside",
+          "tags": [
+            "rural_setting"
+          ]
+        },
+        {
+          "label": "Isolated locations",
+          "tags": [
+            "isolated_setting"
+          ]
+        },
+        {
+          "label": "Outer space",
+          "tags": [
+            "space_setting"
+          ]
+        },
+        {
+          "label": "Underwater",
+          "tags": [
+            "underwater_setting"
+          ]
+        },
+        {
+          "label": "Post-apocalyptic worlds",
+          "tags": [
+            "post_apocalyptic"
+          ]
+        },
+        {
+          "label": "Historical settings",
+          "tags": [
+            "historical_setting"
+          ]
+        },
+        {
+          "label": "Universities or schools",
+          "tags": [
+            "school_setting"
+          ]
+        },
+        {
+          "label": "Workplaces",
+          "tags": [
+            "workplace_setting"
+          ]
+        },
+        {
+          "label": "Road trips",
+          "tags": [
+            "road_trip_setting"
+          ]
+        },
+        {
+          "label": "Remote wilderness",
+          "tags": [
+            "wilderness_setting"
+          ]
+        }
+      ],
+      "required": false,
+      "preference_tags": [
+        "setting"
+      ]
+    },
+    {
+      "id": "Q031",
+      "category": "setting_and_time_period",
+      "question": "Are there regions or countries whose films or settings interest you?",
+      "type": "multi_select",
+      "options": [
+        {
+          "label": "United States / Canada",
+          "tags": [
+            "north_american_cinema"
+          ]
+        },
+        {
+          "label": "United Kingdom / Ireland",
+          "tags": [
+            "british_irish_cinema"
+          ]
+        },
+        {
+          "label": "Western Europe",
+          "tags": [
+            "western_european_cinema"
+          ]
+        },
+        {
+          "label": "Eastern Europe",
+          "tags": [
+            "eastern_european_cinema"
+          ]
+        },
+        {
+          "label": "East Asia",
+          "tags": [
+            "east_asian_cinema"
+          ]
+        },
+        {
+          "label": "South Asia",
+          "tags": [
+            "south_asian_cinema"
+          ]
+        },
+        {
+          "label": "Southeast Asia",
+          "tags": [
+            "southeast_asian_cinema"
+          ]
+        },
+        {
+          "label": "Latin America",
+          "tags": [
+            "latin_american_cinema"
+          ]
+        },
+        {
+          "label": "Africa",
+          "tags": [
+            "african_cinema"
+          ]
+        },
+        {
+          "label": "Middle East",
+          "tags": [
+            "middle_eastern_cinema"
+          ]
+        },
+        {
+          "label": "Australia / New Zealand",
+          "tags": [
+            "australasian_cinema"
+          ]
+        },
+        {
+          "label": "No preference",
+          "tags": [
+            "any_region"
+          ]
+        }
+      ],
+      "required": false,
+      "preference_tags": [
+        "region"
+      ]
+    },
+    {
+      "id": "Q032",
+      "category": "setting_and_time_period",
+      "question": "Do you enjoy movies based on historical events or real periods in history?",
+      "type": "single_select",
+      "options": [
+        {
+          "label": "Yes, very much",
+          "tags": [
+            "historical_interest"
+          ]
+        },
+        {
+          "label": "Sometimes",
+          "tags": [
+            "some_historical_interest"
+          ]
+        },
+        {
+          "label": "Not particularly",
+          "tags": [
+            "low_historical_interest"
+          ]
+        },
+        {
+          "label": "No",
+          "tags": [
+            "avoid_historical"
+          ]
+        }
+      ],
+      "required": false,
+      "preference_tags": [
+        "historical_setting"
+      ]
+    },
+    {
+      "id": "Q033",
+      "category": "runtime_and_viewing",
+      "question": "What movie runtime do you usually prefer?",
+      "type": "single_select",
+      "options": [
+        {
+          "label": "Under 90 minutes",
+          "tags": [
+            "runtime_under_90"
+          ]
+        },
+        {
+          "label": "90–110 minutes",
+          "tags": [
+            "runtime_90_110"
+          ]
+        },
+        {
+          "label": "111–130 minutes",
+          "tags": [
+            "runtime_111_130"
+          ]
+        },
+        {
+          "label": "131–160 minutes",
+          "tags": [
+            "runtime_131_160"
+          ]
+        },
+        {
+          "label": "Over 160 minutes",
+          "tags": [
+            "runtime_over_160"
+          ]
+        },
+        {
+          "label": "No preference",
+          "tags": [
+            "any_runtime"
+          ]
+        }
+      ],
+      "required": false,
+      "preference_tags": [
+        "runtime"
+      ]
+    },
+    {
+      "id": "Q034",
+      "category": "runtime_and_viewing",
+      "question": "What pacing do you usually prefer?",
+      "type": "single_select",
+      "options": [
+        {
+          "label": "Fast-paced",
+          "tags": [
+            "fast_paced"
+          ]
+        },
+        {
+          "label": "Moderate pacing",
+          "tags": [
+            "moderate_pacing"
+          ]
+        },
+        {
+          "label": "Slow-burn",
+          "tags": [
+            "slow_burn"
+          ]
+        },
+        {
+          "label": "Varies by story",
+          "tags": [
+            "any_pacing"
+          ]
+        }
+      ],
+      "required": false,
+      "preference_tags": [
+        "pacing"
+      ]
+    },
+    {
+      "id": "Q035",
+      "category": "runtime_and_viewing",
+      "question": "Are you comfortable watching movies with subtitles?",
+      "type": "single_select",
+      "options": [
+        {
+          "label": "Yes, absolutely",
+          "tags": [
+            "subtitles_ok"
+          ]
+        },
+        {
+          "label": "Yes, if the movie interests me",
+          "tags": [
+            "subtitles_conditional"
+          ]
+        },
+        {
+          "label": "Prefer dubbed versions",
+          "tags": [
+            "prefer_dubbed"
+          ]
+        },
+        {
+          "label": "Prefer movies in languages I understand",
+          "tags": [
+            "no_subtitles"
+          ]
+        }
+      ],
+      "required": false,
+      "preference_tags": [
+        "language_accessibility"
+      ]
+    },
+    {
+      "id": "Q036",
+      "category": "runtime_and_viewing",
+      "question": "Would you watch a black-and-white movie?",
+      "type": "single_select",
+      "options": [
+        {
+          "label": "Yes",
+          "tags": [
+            "black_and_white_ok"
+          ]
+        },
+        {
+          "label": "Maybe, if highly recommended",
+          "tags": [
+            "black_and_white_conditional"
+          ]
+        },
+        {
+          "label": "Probably not",
+          "tags": [
+            "black_and_white_avoid"
+          ]
+        }
+      ],
+      "required": false,
+      "preference_tags": [
+        "classic_cinema"
+      ]
+    },
+    {
+      "id": "Q037",
+      "category": "runtime_and_viewing",
+      "question": "Would you watch a movie made before 1950?",
+      "type": "single_select",
+      "options": [
+        {
+          "label": "Definitely",
+          "tags": [
+            "pre_1950_ok"
+          ]
+        },
+        {
+          "label": "Maybe, if highly recommended",
+          "tags": [
+            "pre_1950_conditional"
+          ]
+        },
+        {
+          "label": "Probably not",
+          "tags": [
+            "pre_1950_avoid"
+          ]
+        }
+      ],
+      "required": false,
+      "preference_tags": [
+        "classic_cinema"
+      ]
+    },
+    {
+      "id": "Q038",
+      "category": "runtime_and_viewing",
+      "question": "Do you enjoy sequels, prequels, or established franchises?",
+      "type": "single_select",
+      "options": [
+        {
+          "label": "Yes, I love them",
+          "tags": [
+            "franchise_positive"
+          ]
+        },
+        {
+          "label": "Sometimes",
+          "tags": [
+            "franchise_conditional"
+          ]
+        },
+        {
+          "label": "Prefer standalone movies",
+          "tags": [
+            "standalone_preference"
+          ]
+        },
+        {
+          "label": "No preference",
+          "tags": [
+            "any_franchise"
+          ]
+        }
+      ],
+      "required": false,
+      "preference_tags": [
+        "franchise"
+      ]
+    },
+    {
+      "id": "Q039",
+      "category": "content_boundaries",
+      "question": "What level of on-screen violence are you comfortable with?",
+      "type": "single_select",
+      "options": [
+        {
+          "label": "None or very mild",
+          "tags": [
+            "violence_none_mild"
+          ]
+        },
+        {
+          "label": "Moderate",
+          "tags": [
+            "violence_moderate"
+          ]
+        },
+        {
+          "label": "Intense",
+          "tags": [
+            "violence_intense"
+          ]
+        },
+        {
+          "label": "Graphic violence is okay",
+          "tags": [
+            "violence_graphic"
+          ]
+        }
+      ],
+      "required": false,
+      "preference_tags": [
+        "violence"
+      ]
+    },
+    {
+      "id": "Q040",
+      "category": "content_boundaries",
+      "question": "How do you feel about horror or frightening scenes?",
+      "type": "single_select",
+      "options": [
+        {
+          "label": "Avoid horror and frightening scenes",
+          "tags": [
+            "horror_avoid"
+          ]
+        },
+        {
+          "label": "Suspense is okay, but not horror",
+          "tags": [
+            "suspense_only"
+          ]
+        },
+        {
+          "label": "Mild horror is okay",
+          "tags": [
+            "mild_horror"
+          ]
+        },
+        {
+          "label": "I enjoy intense horror",
+          "tags": [
+            "intense_horror"
+          ]
+        },
+        {
+          "label": "Any level is fine",
+          "tags": [
+            "any_horror_level"
+          ]
+        }
+      ],
+      "required": false,
+      "preference_tags": [
+        "horror_intensity"
+      ]
+    },
+    {
+      "id": "Q041",
+      "category": "content_boundaries",
+      "question": "What level of sexual content are you comfortable with?",
+      "type": "single_select",
+      "options": [
+        {
+          "label": "None or very mild",
+          "tags": [
+            "sexual_content_low"
+          ]
+        },
+        {
+          "label": "Some",
+          "tags": [
+            "sexual_content_moderate"
+          ]
+        },
+        {
+          "label": "Explicit content is okay",
+          "tags": [
+            "sexual_content_high"
+          ]
+        },
+        {
+          "label": "No preference",
+          "tags": [
+            "any_sexual_content"
+          ]
+        }
+      ],
+      "required": false,
+      "preference_tags": [
+        "sexual_content"
+      ]
+    },
+    {
+      "id": "Q042",
+      "category": "content_boundaries",
+      "question": "How do you feel about profanity and strong language?",
+      "type": "single_select",
+      "options": [
+        {
+          "label": "Prefer minimal profanity",
+          "tags": [
+            "profanity_low"
+          ]
+        },
+        {
+          "label": "Some profanity is fine",
+          "tags": [
+            "profanity_moderate"
+          ]
+        },
+        {
+          "label": "No preference",
+          "tags": [
+            "any_profanity"
+          ]
+        }
+      ],
+      "required": false,
+      "preference_tags": [
+        "language"
+      ]
+    },
+    {
+      "id": "Q043",
+      "category": "content_boundaries",
+      "question": "Are there specific topics or themes you want to avoid?",
+      "type": "text",
+      "options": [],
+      "required": false,
+      "preference_tags": [
+        "content_exclusions"
+      ]
+    },
+    {
+      "id": "Q044",
+      "category": "content_boundaries",
+      "question": "Are there any content elements that are absolute dealbreakers?",
+      "type": "text",
+      "options": [],
+      "required": false,
+      "preference_tags": [
+        "hard_exclusions"
+      ]
+    },
+    {
+      "id": "Q045",
+      "category": "discovery_and_experimentation",
+      "question": "How adventurous are you when choosing movies?",
+      "type": "single_select",
+      "options": [
+        {
+          "label": "I usually stick to familiar, mainstream movies",
+          "tags": [
+            "adventurousness_low"
+          ]
+        },
+        {
+          "label": "I enjoy a mix of familiar and new",
+          "tags": [
+            "adventurousness_medium"
+          ]
+        },
+        {
+          "label": "I actively seek unusual or lesser-known movies",
+          "tags": [
+            "adventurousness_high"
+          ]
+        },
+        {
+          "label": "I love challenging and experimental films",
+          "tags": [
+            "adventurousness_very_high"
+          ]
+        }
+      ],
+      "required": false,
+      "preference_tags": [
+        "adventurousness"
+      ]
+    },
+    {
+      "id": "Q046",
+      "category": "discovery_and_experimentation",
+      "question": "How popular should your recommendations be?",
+      "type": "single_select",
+      "options": [
+        {
+          "label": "Mostly popular, well-known movies",
+          "tags": [
+            "popularity_high"
+          ]
+        },
+        {
+          "label": "A mix of popular and lesser-known movies",
+          "tags": [
+            "popularity_mixed"
+          ]
+        },
+        {
+          "label": "Mostly hidden gems and under-the-radar movies",
+          "tags": [
+            "popularity_low"
+          ]
+        },
+        {
+          "label": "Obscure discoveries, even if few people know them",
+          "tags": [
+            "popularity_very_low"
+          ]
+        }
+      ],
+      "required": false,
+      "preference_tags": [
+        "popularity"
+      ]
+    },
+    {
+      "id": "Q047",
+      "category": "discovery_and_experimentation",
+      "question": "How often should recommendations take you outside your usual tastes?",
+      "type": "single_select",
+      "options": [
+        {
+          "label": "Rarely; stay close to what I know I like",
+          "tags": [
+            "novelty_low"
+          ]
+        },
+        {
+          "label": "Sometimes; include a few surprises",
+          "tags": [
+            "novelty_medium"
+          ]
+        },
+        {
+          "label": "Often; I like discovering new things",
+          "tags": [
+            "novelty_high"
+          ]
+        },
+        {
+          "label": "As often as possible",
+          "tags": [
+            "novelty_very_high"
+          ]
+        }
+      ],
+      "required": false,
+      "preference_tags": [
+        "novelty"
+      ]
+    },
+    {
+      "id": "Q048",
+      "category": "discovery_and_experimentation",
+      "question": "Would you watch an independent film with unfamiliar actors?",
+      "type": "single_select",
+      "options": [
+        {
+          "label": "Definitely",
+          "tags": [
+            "independent_film_positive"
+          ]
+        },
+        {
+          "label": "Maybe, with a strong recommendation",
+          "tags": [
+            "independent_film_conditional"
+          ]
+        },
+        {
+          "label": "Prefer recognizable actors",
+          "tags": [
+            "star_driven_preference"
+          ]
+        }
+      ],
+      "required": false,
+      "preference_tags": [
+        "independent_film"
+      ]
+    },
+    {
+      "id": "Q049",
+      "category": "discovery_and_experimentation",
+      "question": "Would you consider a critically acclaimed movie with low audience popularity?",
+      "type": "single_select",
+      "options": [
+        {
+          "label": "Yes",
+          "tags": [
+            "critical_acclaim_positive"
+          ]
+        },
+        {
+          "label": "Maybe",
+          "tags": [
+            "critical_acclaim_conditional"
+          ]
+        },
+        {
+          "label": "Prefer movies popular with audiences",
+          "tags": [
+            "audience_popularity_positive"
+          ]
+        }
+      ],
+      "required": false,
+      "preference_tags": [
+        "critical_vs_audience"
+      ]
+    },
+    {
+      "id": "Q050",
+      "category": "movie_anchors",
+      "question": "List up to five movies you absolutely love.",
+      "type": "text",
+      "options": [],
+      "required": false,
+      "preference_tags": [
+        "favorite_movies"
+      ]
+    },
+    {
+      "id": "Q051",
+      "category": "movie_anchors",
+      "question": "Name one movie you could watch over and over.",
+      "type": "text",
+      "options": [],
+      "required": false,
+      "preference_tags": [
+        "rewatch_favorite"
+      ]
+    },
+    {
+      "id": "Q052",
+      "category": "movie_anchors",
+      "question": "Name a movie you think is underrated or deserves more attention.",
+      "type": "text",
+      "options": [],
+      "required": false,
+      "preference_tags": [
+        "underrated_favorite"
+      ]
+    },
+    {
+      "id": "Q053",
+      "category": "movie_anchors",
+      "question": "Name a popular movie you did not enjoy.",
+      "type": "text",
+      "options": [],
+      "required": false,
+      "preference_tags": [
+        "disliked_popular_movie"
+      ]
+    },
+    {
+      "id": "Q054",
+      "category": "movie_anchors",
+      "question": "What is the last movie you watched and genuinely enjoyed?",
+      "type": "text",
+      "options": [],
+      "required": false,
+      "preference_tags": [
+        "recent_favorite"
+      ]
+    },
+    {
+      "id": "Q055",
+      "category": "movie_anchors",
+      "question": "Name a movie you wish you could watch again for the first time.",
+      "type": "text",
+      "options": [],
+      "required": false,
+      "preference_tags": [
+        "first_watch_favorite"
+      ]
+    },
+    {
+      "id": "Q056",
+      "category": "movie_anchors",
+      "question": "Are there any directors whose movies you usually enjoy?",
+      "type": "text",
+      "options": [],
+      "required": false,
+      "preference_tags": [
+        "favorite_directors"
+      ]
+    },
+    {
+      "id": "Q057",
+      "category": "movie_anchors",
+      "question": "Are there any actors whose movies you tend to seek out?",
+      "type": "text",
+      "options": [],
+      "required": false,
+      "preference_tags": [
+        "favorite_actors"
+      ]
+    },
+    {
+      "id": "Q058",
+      "category": "movie_anchors",
+      "question": "When you like a movie, what usually makes you like it?",
+      "type": "multi_select",
+      "options": [
+        {
+          "label": "Storyline",
+          "tags": [
+            "storyline"
+          ]
+        },
+        {
+          "label": "Acting",
+          "tags": [
+            "acting"
+          ]
+        },
+        {
+          "label": "Cinematography",
+          "tags": [
+            "cinematography"
+          ]
+        },
+        {
+          "label": "Soundtrack",
+          "tags": [
+            "soundtrack"
+          ]
+        },
+        {
+          "label": "Characters",
+          "tags": [
+            "characters"
+          ]
+        },
+        {
+          "label": "Humor",
+          "tags": [
+            "humor"
+          ]
+        },
+        {
+          "label": "Emotional impact",
+          "tags": [
+            "emotional_impact"
+          ]
+        },
+        {
+          "label": "Plot twists",
+          "tags": [
+            "plot_twists"
+          ]
+        },
+        {
+          "label": "Themes or message",
+          "tags": [
+            "themes"
+          ]
+        },
+        {
+          "label": "Atmosphere",
+          "tags": [
+            "atmosphere"
+          ]
+        },
+        {
+          "label": "Originality",
+          "tags": [
+            "originality"
+          ]
+        }
+      ],
+      "required": false,
+      "preference_tags": [
+        "favorite_movie_reasons"
+      ]
+    }
+  ]
+}
