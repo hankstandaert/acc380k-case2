@@ -1,97 +1,28 @@
 Here are the questions we wanted to add (with potential multiple choice options):
-{
-  "schema_version": "1.0",
-  "description": "MovieMatch user preference question bank. Option tags are machine-readable signals for filtering and recommendation scoring.",
-  "question_count": 58,
-  "categories": [
-    "genre_preferences",
-    "storytelling",
-    "mood_and_emotion",
-    "cinematic_style",
-    "characters_and_relationships",
-    "setting_and_time_period",
-    "runtime_and_viewing",
-    "content_boundaries",
-    "discovery_and_experimentation",
-    "movie_anchors"
-  ],
-  "questions": [
-    {
-      "id": "Q001",
-      "category": "genre_preferences",
-      "question": "Which genres do you enjoy?",
-      "type": "multi_select",
-      "options": [
-        {
-          "label": "Action",
-          "tags": [
-            "action"
-          ]
-        },
-        {
-          "label": "Adventure",
-          "tags": [
-            "adventure"
-          ]
-        },
-        {
-          "label": "Comedy",
-          "tags": [
-            "comedy"
-          ]
-        },
-        {
-          "label": "Romantic comedy",
-          "tags": [
-            "romance",
-            "comedy"
-          ]
-        },
-        {
-          "label": "Romance",
-          "tags": [
-            "romance"
-          ]
-        },
-        {
-          "label": "Drama",
-          "tags": [
-            "drama"
-          ]
-        },
-        {
-          "label": "Psychological thriller",
-          "tags": [
-            "thriller",
-            "psychological"
-          ]
-        },
-        {
-          "label": "Crime thriller",
-          "tags": [
-            "thriller",
-            "crime"
-          ]
-        },
-        {
-          "label": "Mystery / whodunit",
-          "tags": [
-            "mystery",
-            "detective"
-          ]
-        },
-        {
-          "label": "Horror",
-          "tags": [
-            "horror"
-          ]
-        },
-        {
-          "label": "Supernatural horror",
-          "tags": [
-            "horror",
-            "supernatural"
-          ]
-        },
-        {
-          "label": "Science fiction",
+Key for QB Code 
+
+id: Unique question identifier.
+
+
+
+category: Question category.
+
+
+
+question: Question displayed to the user.
+
+
+
+type: single_select, multi_select, slider, or text.
+
+
+
+options: Available answers.
+
+
+
+required: Whether users must answer.
+
+
+
+preference_tags: Tags that connect answers to movie characteristics.
